@@ -1,0 +1,34 @@
+
+.add-user{
+    display: inline-block;
+    width: 80%;
+}
+.usersList{
+    display: inline-block;
+    width: 80%;
+}
+.usersList .usersList-line {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+.usersList .usersList-line.caption {
+    border-top: 1px solid silver;
+    background-color: midnightblue;
+    color: silver;
+}
+.usersList .usersList-line .usersList-line-name {
+    display: inline-block;
+    width: 80%;
+}
+.usersList .usersList-line .usersList-line-del {
+    display: inline-block;
+    width: 20%;
+}
+.usersList .usersList-line .usersList-line-del img{
+    height: 1.5em;
+    width: 1.5em;
+    cursor: pointer;
+}

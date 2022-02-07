@@ -1,0 +1,125 @@
+BODY{
+    width: 100%;
+    font-family: Cambria, Courier New, Calibri, Arial, MS Trebichet;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+.page-wrap{
+    position: relative;
+    min-height: calc(100vh - 25px);
+    padding-bottom: 25px;
+}
+footer{
+    background-color: rgba(25,25,50,1);
+    color: #ffffff;
+    padding: 0.2em 0;
+    height: 25px;
+}
+.contentBlock-frame{
+    text-align: center;
+    width: 100%;
+}
+.contentBlock-center{
+    display: inline-block;
+    max-width: 1366px;
+    width: 100%;
+}
+.contentBlock-frame.dark{
+    background: rgba(25,25,50,1);
+    color: #ffffff;
+}
+.contentBlock-frame.dark.ft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+form.form-option{
+    position: relative;
+    width: 100%;
+}
+form.form-option .form-option-line{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+form.form-option .form-option-cntrl{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: right;
+}
+form.form-option .form-option-cntrl input[type=submit],
+form.form-option .form-option-cntrl input[type=button]
+{
+    font-weight: bold;
+    font-size: 1em;
+    margin-right: 1em;
+    background-color: darkgreen;
+    color: #ffffff;
+}
+
+form.form-option label
+{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 1em;
+    color: blue;
+    font-weight: bold;
+}
+form.form-option input[type='text'], form.form-option select, form.form-option input[type='password']
+{
+    padding: 0.1em 0;
+
+    display: inline-block;
+    width: calc(50% - 2px);
+    text-align: left;
+    font-size: 1em;
+    border: 1px solid silver;
+}
+form.form-option input[type='number'], form.form-option input[type='date']
+{
+    padding: 0.1em 0;
+    display: inline-block;
+    width: calc(25% - 2px);
+    margin-right: 25%;
+    border: 1px solid silver;
+    text-align: left;
+    font-size: 1em;
+}
+form.form-option textarea{
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    font-size: 1em;
+}
+.result-info{
+    width: 100%;
+    color: white;
+}
+.result-info.well{
+    background-color: darkgreen;
+}
+.result-info.fail{
+    background-color: firebrick;
+}
+@media only screen and (orientation : portrait){
+    form.form-option input[type='text'], form.form-option label, form.form-option select, form.form-option input[type='password']
+    {
+        width: 80%;
+    }
+    form.form-option input[type='number'], form.form-option input[type='date']
+    {
+        width: 50%;
+    }
+}

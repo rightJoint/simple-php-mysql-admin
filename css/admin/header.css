@@ -1,0 +1,114 @@
+header
+{
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.adminMenu
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+    text-align: center;
+}
+
+.avatar
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    text-align: left;
+}
+
+h1
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.btnPanel
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    text-align: right;
+}
+
+.adminMenu img
+{
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+}
+
+.adminMenu-link-frame
+{
+    height: 0;
+    width: 50%;
+    visibility: hidden;
+    display: none;
+    z-index: 2;
+    position: absolute;
+    left: 1em;
+    top: 2em;
+}
+
+.adminMenu-link-frame.open
+{
+    visibility: visible;
+    display: block;
+}
+
+.adminMenu .adminMenu-link
+{
+    border-bottom: 1px solid #ffffff;
+}
+
+.adminMenu .adminMenu-link a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    background-color: navy;
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-weight: bold;
+}
+
+.adminMenu .adminMenu-link a.disabled
+{
+    color: red;
+}
+
+.adminMenu .adminMenu-link:first-child a
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid #ffffff;
+}
+
+.adminMenu .adminMenu-link:last-child a
+{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a.exit img
+{
+    height: 1em;
+    width: 1em;
+}
+
+a.exit
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1em;
+}

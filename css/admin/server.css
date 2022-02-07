@@ -1,0 +1,17 @@
+.settingsPanel, .statusPanel
+{
+    display: inline-block;
+    width: 80%;
+}
+
+.statusPanel span.statusOk
+{
+    color: lime;
+    font-size: 1.2em;
+}
+
+.statusPanel span.statusFail
+{
+    color: firebrick;
+    font-size: 1.2em;
+}

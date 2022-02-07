@@ -1,0 +1,1 @@
+insert into prodtestprice (product_id, region_id, priceVal, currency_id, comment) values ('1', '34', '87.36', '54', 'test price 1'), ('1', '76', '90.42', '54', 'test 2'), ('1', '76', '29.72', '26', 'test 2'), ('3', '23', '29', '26', 'test 7')

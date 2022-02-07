@@ -1,0 +1,50 @@
+.contentCell
+{
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+.contentCell-text a
+{
+    display: inline-block;
+    width: 100%;
+    font-size: 1.2em;
+    color: blue;
+    font-weight: bold;
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.contentCell-img
+{
+    display: inline-block;
+    width: 27%;
+    margin: 1%;
+    border: 2px solid navy;
+    border-radius: 0.5em;
+}
+
+.contentCell-img img
+{
+    height: 5em;
+    width: 5em;
+}
+
+.contentCell-text
+{
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+}
+
+@media only screen and (max-width : 1024px)
+{
+    .contentCell
+    {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid navy;
+    }
+}

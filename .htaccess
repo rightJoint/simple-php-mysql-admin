@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+DirectoryIndex index.php
+RewriteRule . index.php [L]

@@ -1,0 +1,207 @@
+.optionsPanel{
+    color: darkgreen;
+    margin: 1em 2%;
+    display: inline-block;
+    width: 96%;
+    text-align: left;
+}
+.uploadOptions{
+    display: inline-block;
+    width: 50%;
+}
+.optionsPanel .btnPanel{
+    display: inline-block;
+    width: 50%;
+}
+.uploadAll{
+    color: #008000;
+}
+.optionsPanel .refresh{
+    color: lightgreen;
+}
+.optionsPanel .showLog{
+    color: firebrick;
+}
+.btnPanel input[type='button']{
+    margin-right: 1em;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.optionsPanel input[name='prefixTag']{
+    border: none;
+    border-bottom: 1px solid blue;
+    font-size: 1em;
+}
+label[for=prefixTag]{
+    margin-right: 1em;
+    font-weight: bold;
+}
+label [for=dateTag]{
+    font-weight: bold;
+}
+.tablesList{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.tablesList img{
+    height: 1em;
+    width: 1em;
+    cursor: pointer;
+}
+.table-line{
+    display: inline-block;
+    width: 100%;
+    padding: 0.1em;
+    border-bottom: 1px solid silver;
+}
+.table-line div:first-child{
+    border-left: 1px solid silver;
+}
+.table-line:nth-child(2n+2){
+    background-color: rgba(0, 255, 0, 0.1);
+}
+.table-line.caption{
+    background: navy;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.table-cell{
+    display: inline-block;
+    border-right: 1px solid gray;
+}
+.table-line.caption .table-cell{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid white;
+}
+.table-cell.tblName{
+    width: 25%;
+}
+.table-cell.tblLst{
+    width: 10%;
+}
+.table-cell.tblExt{
+    width: 10%;
+}
+.table-cell.tblAct{
+    width: 25%;
+}
+.table-cell.tblDwlTag{
+    width: 20%;
+}
+.table-cell.action-icon{
+    width: 5%;
+}
+.table-cell.action-icon img{
+    height: 1em;
+    width: 1em;
+    cursor: pointer;
+}
+.table-cell.action-icon span{
+    background-image: url("/img/admin/clear-icon.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+input{
+    color: navy;
+}
+input:disabled{
+    color: #000000;
+    font-style: italic;
+}
+.tablesList select{
+    font-size: 0.8em;
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 100%;
+    display: block;
+}
+/*modal-->*/
+.modal{
+    visibility: hidden;
+    vertical-align: top;
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.modal .contentBlock-frame{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.modal .contentBlock-center{
+    z-index: 3;
+}
+.logPanel{
+    width: 70%;
+    display: inline-block;
+    background-color: rgba(25,25,50,1);
+    color: white;
+    text-align: left;
+    float: left;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.logPanel div{
+    width: 90%;
+    margin-top: 1em;
+    padding-left: 10%;
+}
+.logPanel div.success{
+    border-bottom: 1px solid lightgreen;
+}
+.logPanel div.fail{
+    border-bottom: 1px solid red;
+}
+.logPanel div span{
+    color: red;
+    display: block;
+}
+.logPanel h3{
+    background: navy;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+.modal-right{
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+}
+/*modalMenu-->*/
+.modal-right img{
+    height: 3em;
+    width: 3em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 768px){
+    .logPanel, .modal-right    {
+        width: 100%;
+        position: relative;
+    }
+    .logPanel    {
+        float: right;
+    }
+    .modal-right    {
+        float: left;
+        text-align: right;
+    }
+    .uploadOptions, .optionsPanel .btnPanel    {
+        display: block;
+        width: 100%;
+        margin-top: 0.5em;
+    }
+}

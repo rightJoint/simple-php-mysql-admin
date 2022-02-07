@@ -1,0 +1,1 @@
+insert into prodtest (product_id, prodName, prodAlias, shortDescr, longDescr, cat_id, active) values ('1', 'pancake', 'pancake', 'couple word', 'more test to describe', '1', '1'), ('3', 'icecream', 'icecream', 'cold and tasty', 'more text to describe product', '1', '1')

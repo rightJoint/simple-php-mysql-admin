@@ -1,0 +1,76 @@
+body
+{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+
+h1
+{
+    background: navy;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.pagewarning
+{
+    color: #ffffff;
+    background-color: firebrick;
+    font-weight: bold;
+    width: 100%;
+}
+
+.adminDoor
+{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+form
+{
+    width: 100%;
+    border: 2px solid navy;
+    font-size: 1.2em;
+}
+
+input[type='text'], input[type='password']
+{
+    display: block;
+    width: 90%;
+    margin: 1em 5%;
+    font-size: 1.2em;
+}
+
+.btnBlock
+{
+    width: 100%;
+    text-align: right;
+}
+
+input[type='submit']
+{
+    margin: 0.5em;
+    font-size: 1.2em;
+    background: black;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bdUsrPanel
+{
+    background: navy;
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid white;
+}
+
+.bdUsrPanel a.exit
+{
+    color: #ffffff;
+    float: right;
+}

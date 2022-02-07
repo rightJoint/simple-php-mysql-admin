@@ -1,0 +1,128 @@
+form.form-option label.pk
+{
+    color: darkgreen;
+}
+form.form-option label.lm
+{
+    color: red;
+}
+form.form-option label.tinyint
+{
+    color: gray;
+}
+form.form-option.tbl-shift{
+    margin: 1em 1%;
+    width: 98%;
+}
+.table-filter{
+    font-size: 0.8em;
+    margin: 1em 1%;
+    width: 96%;
+    padding: 0 1%;
+    border: 1px solid blue;
+}
+.query-result-table{
+    margin: 0 1% ;
+    width: 98%;
+    border: 1px solid green;
+}
+form.form-option.tbl-shift{
+    margin-top: 1em;
+}
+form.form-option.modal-content{
+    padding: 0 1%;
+    margin-top: 1em;
+    font-size: 0.8em;
+}
+
+/* Extra styles for the cancel button */
+.fo-wrap .cancelbtn {
+    width: auto;
+    padding: 0.8em 1.2em;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.fo-wrap .imgcontainer {
+    text-align: center;
+    margin: 1.8em 0 1em 0;
+    position: relative;
+}
+/* The Modal (background) */
+.fo-wrap .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 4em;
+}
+
+/* Modal Content/Box */
+.fo-wrap .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 60em;
+}
+
+/* The Close Button (x) */
+.fo-wrap .close {
+    position: absolute;
+    right: 0.5em;
+    top: -1em;
+    color: #000;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.fo-wrap .close:hover,
+.fo-wrap .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.fo-wrap .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .fo-wrap .cancelbtn {
+        width: 100%;
+    }
+}
+
+@media only screen and (orientation : portrait){
+    .fo-wrap .modal-content{
+        max-width: 90%;
+    }
+    .fo-wrap .modal-line .social-auth img{
+        height: 2.5em;
+        width: 2.5em;
+    }
+}
+@media only screen and (max-width : 960px) and (orientation : portrait){
+    .fo-wrap .modal-content {
+        max-width: 80%;
+    }
+}
+
